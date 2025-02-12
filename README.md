@@ -1,9 +1,9 @@
 # PythonPenTools
-🐍 PyPentools
+#### 🐍 PyPentools
 
 Colección de scripts en Python para automatizar tareas en todas las etapas de un test de intrusión: reconocimiento, explotación y post-explotación.
 Diseñado para pentesters y estudiantes, estos scripts son ligeros, prácticos y creados durante retos en plataformas de ciberseguridad.
-📁 Estructura del Proyecto
+#### 📁 Estructura del Proyecto
 
 El proyecto está organizado de la siguiente manera:
 
@@ -21,13 +21,15 @@ git clone https://github.com/TU-USUARIO/PyPentools
 cd PyPentools
 ```
 
-📌 Requisitos
+#### 📌 Requisitos
 
 Todos los scripts están desarrollados en Python 3, por lo que es indispensable tenerlo instalado. También pueden requerir algunas librerías adicionales, que puedes instalar con:
 
+```bash
 pip install -r requirements.txt
+```
 
-🎯 Ejemplos de Uso
+#### 🎯 Ejemplos de Uso
 
 📡 Escaneo de Puertos y Host
 
@@ -38,20 +40,20 @@ python3 reconnaissance/scan_icmp.py -t 192.168.1.0-254 #Hosts por ICMP
 
 python3 reconnaissance/scan_arp.py -t 192.168.1.0/24 #Hosts por ARP
 ```
- #### 🔄 Cambio de Dirección MAC
+🔄 Cambio de Dirección MAC
 
 Este script permite **cambiar la dirección MAC** de una interfaz de red. Puede ser útil para **evadir filtros MAC**, realizar pruebas de **anonimato** o simplemente por motivos educativos.
 
-#### Uso:
+Uso:
 
 1. **Asegúrate de tener permisos de administrador** para cambiar la dirección MAC de una interfaz de red.
    
 2. **Ejecuta el script**:
 
 ```bash
-python auxiliar/cambiar_mac.py -i eth0 -m 00:11:22:33:44:55
+python3 auxiliary/macchanger.py -i eth0 -m 00:11:22:33:44:55
 ```
-⚠️ Advertencia Legal
+#### Advertencia Legal
 
 Este proyecto está destinado únicamente a fines educativos y de investigación en entornos autorizados.
 ❌ No se debe usar en sistemas sin permiso expreso del propietario.
