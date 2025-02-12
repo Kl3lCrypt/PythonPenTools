@@ -17,7 +17,7 @@ El proyecto está organizado de la siguiente manera:
 Para comenzar, clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/TU-USUARIO/PyPentools
+git clone https://github.com/Kl3lCrypt/PythonPenTools
 cd PyPentools
 ```
 
