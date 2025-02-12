@@ -29,17 +29,16 @@ pip install -r requirements.txt
 
 🎯 Ejemplos de Uso
 
-📡 Escaneo de Puertos
+📡 Escaneo de Puertos y Host
 
-python reconocimiento/port_scanner.py -t 192.168.1.1 -p 1-65535
+```bash
+python3 reconnaissance/scan_tcp.py -t 192.168.1.1 -p 1-10000 #Ports por TCP
 
-🔓 Fuerza Bruta SSH
+python3 reconnaissance/scan_icmp.py -t 192.168.1.0-254 #Hosts por ICMP
 
-python explotacion/ssh_bruteforce.py -t 192.168.1.100 -u usuario -w passwords.txt
+python3 reconnaissance/scan_arp.py -t 192.168.1.0/24 #Hosts por ARP
+```
 
-📶 Sniffing de Red
-
-python post-explotacion/network_sniffer.py -i eth0
 
 ⚠️ Advertencia Legal
 
