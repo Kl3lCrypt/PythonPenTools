@@ -16,8 +16,10 @@ El proyecto está organizado de la siguiente manera:
 
 Para comenzar, clona este repositorio en tu máquina local:
 
+```bash
 git clone https://github.com/TU-USUARIO/PyPentools
 cd PyPentools
+```
 
 📌 Requisitos
 
