@@ -38,8 +38,19 @@ python3 reconnaissance/scan_icmp.py -t 192.168.1.0-254 #Hosts por ICMP
 
 python3 reconnaissance/scan_arp.py -t 192.168.1.0/24 #Hosts por ARP
 ```
+ #### 🔄 Cambio de Dirección MAC
 
+Este script permite **cambiar la dirección MAC** de una interfaz de red. Puede ser útil para **evadir filtros MAC**, realizar pruebas de **anonimato** o simplemente por motivos educativos.
 
+#### Uso:
+
+1. **Asegúrate de tener permisos de administrador** para cambiar la dirección MAC de una interfaz de red.
+   
+2. **Ejecuta el script**:
+
+```bash
+python auxiliar/cambiar_mac.py -i eth0 -m 00:11:22:33:44:55
+```
 ⚠️ Advertencia Legal
 
 Este proyecto está destinado únicamente a fines educativos y de investigación en entornos autorizados.
